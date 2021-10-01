@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export function useFetch (){
+export function useQuery (){
   const [loading, setLoading] = useState(false)
 
   async function fetchData <T> (input: RequestInfo, init?: RequestInit | undefined): Promise<T> {

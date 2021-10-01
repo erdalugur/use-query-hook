@@ -1,26 +1,29 @@
 {
   "name": "use-query-hook",
-  "version": "1.0.0",
-  "description": "fetch hook",
+  "version": "1.0.2",
+  "description": "a custom package for fecth api",
   "main": "dist/index.js",
+  "source": "src/index.tsx",
   "author": "Uğur Erdal",
   "license": "ISC",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/erdalugur"
+    "url": "https://github.com/erdalugur/use-query-hook.git"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/erdalugur"
+    "url": "https://github.com/erdalugur/use-query-hook/issues"
   },
-  "homepage": "https://github.com/erdalugur",
+  "homepage": "https://github.com/erdalugur/use-query-hook.git",
   "scripts": {
-    "build": "parcel build index.tsx"
-  },
-  "peerDependencies": {
-    "react": "^17.0.2"
+    "build": "tsc"
   },
   "dependencies": {
-    "use-query-hook": "^1.0.0"
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.26",
+    "typescript": ">=3.0.0"
   }
 }
